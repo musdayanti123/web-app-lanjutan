@@ -1,12 +1,12 @@
-<html>
+@extends('tema.master')
 
-<head>
-    <tittle>Musdayanti</tittle>
-</head>
+@section('title')
+    This is my first blade
+@endsection
 
-<body>
-    <h1>Musdayanti 1</h1>
-    <p>Hello Word, Selamat datang di Musdayanti 1</p>
+@section('content')
+    <h1>MUSDAYANTI</h1>
+    <p>Hallo ini adalah view pertama saya!</p>
 </body>
 
-</html>
+@endsection
