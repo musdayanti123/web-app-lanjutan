@@ -18,5 +18,10 @@ class MusdayantiController extends Controller
     {
         return view("musdayanti-3");
     }
+
+    public function index()
+    {
+        return view("test-tema"); // view dengan template
+    }
 }
 

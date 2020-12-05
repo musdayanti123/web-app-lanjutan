@@ -52,3 +52,5 @@ use App\Http\Controllers\MusdaController;
 Route::get("/Musda/satu", [MusdaController::class, "satu"]);
 Route::get("/Musda/dua", [MusdaController::class, "dua"]);
 Route::get("/Musda/tiga", [MusdaController::class, "tiga"]);
+
+Route::get("/test-tema", [MusdayantiController::class, "index"]);
